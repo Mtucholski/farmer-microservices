@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="farmer-discovery-server" />
+        <module name="farmer-config-server" />
+        <module name="farmer-core" />
+        <module name="farmer-admin-server" />
+        <module name="farmer-api-gateway" />
+        <module name="farmer-hystrix-dashboard" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="farmer-animals" target="1.5" />
+      <module name="farmer-core" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
