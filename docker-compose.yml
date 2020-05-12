@@ -1,0 +1,5 @@
+version: '2'
+
+services:
+  config-server:
+    container_name: configuration-server
